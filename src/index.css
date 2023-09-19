@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Mukta', 'sans-serif';
+}
+
+
+.sidebar{
+  transition: left 1s ease-in-out;
+}
+.sidebar.open{
+  left: 0;
+}
+
+.herobg{
+  background: url(./assets/Poster.png) no-repeat center center / cover;
+  height: 30rem;
+}
+
+@media (max-width: 576px){
+  .herobg{
+    height: 20rem;
+  }
+}
