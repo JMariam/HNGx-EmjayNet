@@ -11,9 +11,25 @@ body {
 
 
 .sidebar{
-  transition: left 1s ease-in-out;
+  transition: left 0.5s ease-in-out;
+  
 }
 .sidebar.open{
+  width: 0rem;
+  display: none;
+  
+}
+
+.main{
+  width: calc(100% - 12rem);
+  position: absolute;
+  top: 0;
+  left: 12rem;
+  transition: 0.1s ease-in-out;
+  
+}
+.main.open{
+  width: calc(100% - 0rem);
   left: 0;
 }
 
@@ -24,6 +40,17 @@ body {
 
 @media (max-width: 576px){
   .herobg{
-    height: 20rem;
+    height: 17rem;
+  }
+  .main{
+    width: calc(100% - 0rem);
+    position: absolute;
+    left: 0rem;
+    transition: 0.1s ease-in-out;
+    
+  }
+  .main.open{
+    width: calc(100% - 0rem);
+    left: 0;
   }
 }

@@ -1,20 +1,32 @@
-import logo from '../assets/Logo (1).svg';
+import logo from '../assets/tv.svg';
 import calendar  from '../assets/Calendar.svg';
 import TV from '../assets/TV Show.svg';
+import logout from '../assets/Logout.svg'
+import home from '../assets/Home (1).svg'
+import movies from '../assets/Movie Projector.svg'
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
 
     return ( 
-        <div className="">
-            <div className="sidebar bg-white z-100 absolute left-[-100%] flex flex-col gap-10 max-w-[12rem] h-[100vh] rounded-tr-3xl rounded-br-3xl border border-gray-300 p-6">
-                <div className="flex mb-6">
-                    <img src={logo} alt="" className='w-32'/>
-                    <p className="font-bold text-xl absolute left-20">MovieBox</p>
+        <div className="fixed">
+            <div className="hidden w-[0rem] sidebar bg-white md:flex flex-col gap-8 md:w-[12rem] h-[100vh] rounded-br-3xl border border-gray-300 p-6">
+                <div className="flex items-center gap-3 mb-6">
+                    <img src={logo} alt="" className='w-8'/>
+                    <p className="font-bold text-xl">MovieBox</p>
                 </div>
+               <Link to='/'>
                 <div className="flex gap-2 cursor-pointer">
-                <img src={calendar} alt="" className='w-6'/>
-                    <p className="font-bold text-gray-500 left-20">Movies</p>
-                </div>
+                    <img src={home} alt="" className='w-6'/>
+                        <p className="font-bold text-gray-500 left-20">Home</p>
+                    </div>
+                </Link>
+                <Link to='/data/:id'>
+                    <div className="flex gap-2 cursor-pointer">
+                    <img src={movies} alt="" className='w-5'/>
+                        <p className="font-bold text-gray-500 left-20">Movies</p>
+                    </div>
+                </Link>
                 <div className="flex gap-2 cursor-pointer">
                 <img src={TV} alt="" className='w-6'/>
                     <p className="font-bold text-gray-500 left-20">TV Seies</p>
@@ -29,7 +41,7 @@ const Sidebar = () => {
                     <p className='py-1 px-2 bg-pink-400 text-pink-700 text-xs w-fit mx-auto rounded-2xl'>Start Playing</p>
                 </div>
                 <div className="flex gap-2 cursor-pointer">
-                <img src={calendar} alt="" className='w-6'/>
+                <img src={logout} alt="" className='w-6'/>
                     <p className="font-bold text-gray-500 left-20">Log Out</p>
                 </div>
             </div>

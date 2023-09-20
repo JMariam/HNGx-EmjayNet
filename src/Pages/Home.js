@@ -7,7 +7,7 @@ const Home = () => {
     const  {data, isPending, error} = useFetch("https://api.themoviedb.org/3/movie/top_rated?api_key=ff5ce76710681f496c71c8900cf705b1");
     
     return ( 
-        <div className="home">
+        <div className="home main">
             <div className="">
                 <Hero/>
                 <div className="movies container mx-auto p-6">

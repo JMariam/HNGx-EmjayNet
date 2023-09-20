@@ -19,8 +19,8 @@ const useFetch = (url) => {
             return res.json()
             
         })
-                .then(data => {
-                const top10 = data.results.slice(0, 10)
+                .then((json) => {
+                const top10 = json.results.slice(0, 10)
                 setData(top10);
                 setIsPending(false);
                 setError(null);
