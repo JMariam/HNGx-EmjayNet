@@ -1,8 +1,8 @@
 {
   "name": "EmjayNet",
   "version": "0.1.0",
-  "homepage": "https://jmariam.github.io/hngx-emjaynet/",
-  "private": false,
+  "homepage": "https://jmariam.github.io/HNGx-EmjayNet/",
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
