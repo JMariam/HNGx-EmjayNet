@@ -9,8 +9,8 @@ export default function App() {
   <Router>
       <Sidebar/>
     <Routes>
-      <Route exact path='/' element={<Home/>}/>
-      <Route exact path='/data/:id' element={<MovieDetails/>}/>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/data/:id' element={<MovieDetails/>}/>
       <Route path='' element={<ERR404/>}/>
     </Routes>
 </Router>
