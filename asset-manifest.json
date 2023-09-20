@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/HNGx-EmjayNet/static/css/main.6091eab1.css",
-    "main.js": "/HNGx-EmjayNet/static/js/main.4e1d7e23.js",
+    "main.css": "/HNGx-EmjayNet/static/css/main.27bdb4fa.css",
+    "main.js": "/HNGx-EmjayNet/static/js/main.b41fb96a.js",
     "static/js/787.77c02bcd.chunk.js": "/HNGx-EmjayNet/static/js/787.77c02bcd.chunk.js",
     "static/media/Poster.png": "/HNGx-EmjayNet/static/media/Poster.a37f7a10b6a2578ccf01.png",
-    "static/media/Logo (1).svg": "/HNGx-EmjayNet/static/media/Logo (1).6598c62d422f876c9da3feebff527f07.svg",
+    "static/media/tv.svg": "/HNGx-EmjayNet/static/media/tv.33356d3eddf541d4e3a02ffb43728ed2.svg",
+    "static/media/Movie Projector.svg": "/HNGx-EmjayNet/static/media/Movie Projector.eb26e5a2269a05becb03bab3ee19d26a.svg",
     "static/media/Calendar.svg": "/HNGx-EmjayNet/static/media/Calendar.cc459cf53c715cec33446c1076c94423.svg",
+    "static/media/Home (1).svg": "/HNGx-EmjayNet/static/media/Home (1).9949b062cca08881576646ebf52731ed.svg",
     "static/media/TV Show.svg": "/HNGx-EmjayNet/static/media/TV Show.f5ef326312a17f2ed39ba465c113d6fe.svg",
+    "static/media/Logout.svg": "/HNGx-EmjayNet/static/media/Logout.99d34ef1a7ce37b3c5c030f3bc3eea13.svg",
     "index.html": "/HNGx-EmjayNet/index.html",
-    "main.6091eab1.css.map": "/HNGx-EmjayNet/static/css/main.6091eab1.css.map",
-    "main.4e1d7e23.js.map": "/HNGx-EmjayNet/static/js/main.4e1d7e23.js.map",
+    "main.27bdb4fa.css.map": "/HNGx-EmjayNet/static/css/main.27bdb4fa.css.map",
+    "main.b41fb96a.js.map": "/HNGx-EmjayNet/static/js/main.b41fb96a.js.map",
     "787.77c02bcd.chunk.js.map": "/HNGx-EmjayNet/static/js/787.77c02bcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6091eab1.css",
-    "static/js/main.4e1d7e23.js"
+    "static/css/main.27bdb4fa.css",
+    "static/js/main.b41fb96a.js"
   ]
 }
