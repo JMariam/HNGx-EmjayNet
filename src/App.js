@@ -11,7 +11,7 @@ export default function App() {
     <Routes>
       <Route path='/HNGx-EmjayNet' exact element={<Home/>}/>
       <Route path='/HNGx-EmjayNet/data/:id' exact element={<MovieDetails/>}/>
-      <Route path='' exact element={<ERR404/>}/>
+      <Route path='' element={<ERR404/>}/>
     </Routes>
 </Router>
   )
