@@ -9,9 +9,9 @@ export default function App() {
   <Router>
       <Sidebar/>
     <Routes>
-      <Route exact path='/' element={<Home/>}/>
-      <Route exact path='/data/:id' element={<MovieDetails/>}/>
-      <Route path='' element={<ERR404/>}/>
+      <Route path='/HNGx-EmjayNet' exact element={<Home/>}/>
+      <Route path='/HNGx-EmjayNet/data/:id' exact element={<MovieDetails/>}/>
+      <Route path='' exact element={<ERR404/>}/>
     </Routes>
 </Router>
   )

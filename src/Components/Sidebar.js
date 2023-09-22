@@ -15,13 +15,13 @@ const Sidebar = () => {
                     <img src={logo} alt="" className='w-8'/>
                     <p className="font-bold text-xl">MovieBox</p>
                 </div>
-               <Link to='/'>
+               <Link to='/HNGx-EmjayNet'>
                 <div className="flex gap-2 cursor-pointer">
                     <img src={home} alt="" className='w-6'/>
                         <p className="font-bold text-gray-500 left-20">Home</p>
                     </div>
                 </Link>
-                <Link to='/data/:id'>
+                <Link to='/HNGx-EmjayNet/data/:id'>
                     <div className="flex gap-2 cursor-pointer">
                     <img src={movies} alt="" className='w-5'/>
                         <p className="font-bold text-gray-500 left-20">Movies</p>
